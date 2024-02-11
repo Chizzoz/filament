@@ -1,0 +1,469 @@
+repo_name: Chizzoz/filament
+report_id: c6549a0f69b90e7181b411764a41260b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T17:03:08+00:00'
+requested_by: danharrin
+provider: github
+branch: main
+detected_tools_count: 36
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Chizzoz/filament
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Chizzoz/filament
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Chizzoz/filament
+  detection_source: Repo Metadata
+- name: AlpineJS
+  description: A lightweight JavaScript framework for building interactive web interfaces
+  website_url: https://alpinejs.dev/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/101749/default_1affeb0b941376ae07126433311c338b5cd86701.jpg
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-03-24 09:19:54.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-03-23 00:43:53.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ryan Scherler
+  last_updated_on: 2020-10-16 20:17:09.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: amir
+  last_updated_on: 2021-04-18 18:51:13.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ryan Scherler
+  last_updated_on: 2021-02-02 22:47:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Chizzoz/filament
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/.github/workflows/monorepo-split.yml
+  detection_source: ".github/workflows/monorepo-split.yml"
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-05-07 10:59:48.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Ryan Scherler
+  last_updated_on: 2020-03-12 00:13:05.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ryan Scherler
+  last_updated_on: 2021-02-02 22:47:08.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ryan Scherler
+  last_updated_on: 2020-10-16 20:17:09.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-04-11 19:30:58.000000000 Z
+- name: illuminate/auth
+  description: The Illuminate Auth package
+  package_url: https://packagist.org/illuminate/auth
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 23:24:52.000000000 Z
+- name: illuminate/console
+  description: The Illuminate Console package
+  package_url: https://packagist.org/illuminate/console
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-04-11 19:54:18.000000000 Z
+- name: illuminate/cookie
+  description: The Illuminate Cookie package
+  package_url: https://packagist.org/illuminate/cookie
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 23:24:52.000000000 Z
+- name: illuminate/database
+  description: The Illuminate Database package
+  package_url: https://packagist.org/illuminate/database
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-15 19:31:46.000000000 Z
+- name: illuminate/filesystem
+  description: The Illuminate Filesystem package
+  package_url: https://packagist.org/illuminate/filesystem
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 23:24:52.000000000 Z
+- name: illuminate/http
+  description: The Illuminate Http package
+  package_url: https://packagist.org/illuminate/http
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 23:24:52.000000000 Z
+- name: illuminate/notifications
+  description: The Illuminate Notifications package
+  package_url: https://packagist.org/illuminate/notifications
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-15 17:46:40.000000000 Z
+- name: illuminate/routing
+  description: The Illuminate Routing package
+  package_url: https://packagist.org/illuminate/routing
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 23:24:52.000000000 Z
+- name: illuminate/session
+  description: The Illuminate Session package
+  package_url: https://packagist.org/illuminate/session
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-15 19:02:36.000000000 Z
+- name: illuminate/support
+  description: The Illuminate Support package
+  package_url: https://packagist.org/illuminate/support
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 23:24:52.000000000 Z
+- name: illuminate/validation
+  description: The Illuminate Validation package
+  package_url: https://packagist.org/illuminate/validation
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/packages/forms/composer.json
+  detection_source: packages/forms/composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-16 14:55:31.000000000 Z
+- name: illuminate/view
+  description: The Illuminate View package
+  package_url: https://packagist.org/illuminate/view
+  version: '8.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 23:24:52.000000000 Z
+- name: league/glide-laravel
+  description: Glide adapter for Laravel
+  package_url: https://packagist.org/league/glide-laravel
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-04-11 23:26:31.000000000 Z
+- name: orchestra/testbench
+  description: Laravel Testing Helper for Packages Development
+  package_url: https://packagist.org/orchestra/testbench
+  version: 6.18.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 10:09:30.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-02-14 10:09:30.000000000 Z
+- name: thomaswelton/laravel-gravatar
+  description: Laravel 5 Gravatar helper
+  package_url: https://packagist.org/thomaswelton/laravel-gravatar
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-04-11 23:26:31.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: amir
+  last_updated_on: 2021-04-18 18:51:13.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dan Harrin
+  last_updated_on: 2021-04-11 19:30:58.000000000 Z
+- name: postcss-import
+  description: PostCSS plugin to import CSS files
+  package_url: https://www.npmjs.com/postcss-import
+  version: 14.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: amir
+  last_updated_on: 2021-04-18 18:51:13.000000000 Z
+- name: postcss-nested
+  description: PostCSS plugin to unwrap nested rules like how Sass does it
+  package_url: https://www.npmjs.com/postcss-nested
+  version: 5.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16575/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: amir
+  last_updated_on: 2021-04-18 18:51:13.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Ryan Scherler
+  last_updated_on: 2021-02-14 20:33:55.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 2.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/Chizzoz/filament/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: amir
+  last_updated_on: 2021-04-18 18:51:13.000000000 Z
